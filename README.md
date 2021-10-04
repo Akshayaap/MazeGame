@@ -22,4 +22,6 @@ A GUI Application to solve user generated mazes using Breath First Search Algori
 9. Source and target section feature will be added soon.
 ## Screenshots
 Will be added soon
+
+## Contributors
 @Akshayaap- [Akshay Parmar](https://github.com/Akshayaao): Original Creator
