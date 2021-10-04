@@ -23,5 +23,6 @@ A GUI Application to solve user generated mazes using Breath First Search Algori
 Will be added soon
 
 ## Contributors
-Akshay Kumar - [@Akshayaap](https://github.com/Akshayaao): Original Creator
-Saurav KumaR - [@SKR301](https://github.com/SKR301):
+- Akshay Kumar - [@Akshayaap](https://github.com/Akshayaao): Original Creator
+
+- Saurav KumaR - [@SKR301](https://github.com/SKR301):
