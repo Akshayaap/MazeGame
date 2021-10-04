@@ -24,5 +24,4 @@ Will be added soon
 
 ## Contributors
 - Akshay Kumar - [@Akshayaap](https://github.com/Akshayaao): Original Creator
-
 - Saurav KumaR - [@SKR301](https://github.com/SKR301):
