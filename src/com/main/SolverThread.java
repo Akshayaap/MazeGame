@@ -21,9 +21,7 @@ public class SolverThread extends Thread{
             try {
 
 
-            if(maze.getCurrState()==com.statemachine.State.BFS_COMPLETED){
-                delay=1000;
-            }
+
                 display.init();
                 maze.stepForward();
                 Thread.sleep(delay);
@@ -39,15 +37,12 @@ public class SolverThread extends Thread{
             }
 
         }
-        try {
-            Thread.sleep(5000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+
         display.init();
 
         try {
             maze.stepForward();
+            Thread.sleep(5000);
             display.render();
         } catch (Throwable e) {
             e.printStackTrace();

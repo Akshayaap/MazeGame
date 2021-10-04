@@ -207,6 +207,7 @@ public class Maze {
                         }
 
                     }
+                    expored[currNode]=true;
                 } else {
                     this.currState = State.BFS_COMPLETED;
                     currSrc=target;
@@ -224,6 +225,12 @@ public class Maze {
                     currState=State.IDEAL_STATE;
                 }
                 break;
+            case State.IDEAL_STATE:
+                System.out.println("Maze|stepForward|IDEAL_STATE");
+                Arrays.fill(pathtrace,false);
+
+                g.setColor(Color.RED);
+                this.drawPath(source, target);
             default:
                 break;
         }
